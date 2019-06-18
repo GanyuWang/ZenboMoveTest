@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wgy.zenbomovetest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="zenbo_ds_domainuuid" android:value="82F199B9E7774C688114A72457E3C223"/>
+        <meta-data android:name="zenbo_ds_version_82F199B9E7774C688114A72457E3C223" android:value="0.0.1" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data android:name="com.asus.intent.data.MIN_ROBOT_API_LEVEL.1" />
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
